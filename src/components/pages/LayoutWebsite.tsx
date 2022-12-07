@@ -12,7 +12,6 @@ const LayoutWebsite = (props: Props) => {
                 <HeaderWeb />
             </div>
             <div>
-                <h1>Trần Hồng Quân PH15009</h1>
                 <Outlet />
             </div>
             <div>

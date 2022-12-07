@@ -11,7 +11,7 @@ const Search: React.FC = () => (
         dropdownMatchSelectWidth={500}
         style={{ width: 500 }}
     >
-        <WrapperInput size="large" placeholder="Tìm kiếm" prefix={<SearchOutlined />} />
+        <WrapperInput color='black' size="large" placeholder="Trần Hồng Quân PH15009" prefix={<SearchOutlined />} />
     </AutuCompleteAnt>
 );
 
