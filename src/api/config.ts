@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "https://project-hungthinhland-api-main-assignment-react-carot204.vercel.app/api/",
 
 })
 
