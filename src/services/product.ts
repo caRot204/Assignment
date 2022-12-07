@@ -3,7 +3,7 @@ import { IProduct } from '../interfaces/product';
 
 export const productApi = createApi({
     reducerPath: 'productApi',
-    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "https://project-hungthinhland-api-main-assignment-react.vercel.app/api/" }),
     tagTypes: ['Product'],
     endpoints: (builder) => ({
         getProducts: builder.query<IProduct[], void>({

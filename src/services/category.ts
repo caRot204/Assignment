@@ -3,7 +3,7 @@ import { ICategory } from "../interfaces/category";
 
 export const cateApi = createApi({
     reducerPath: 'cateApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3000' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://project-hungthinhland-api-main-assignment-react.vercel.app/api/' }),
     tagTypes: ['Category'],
     endpoints: (builder) => ({
         getCates: builder.query<ICategory[], void>({
