@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://project-hungthinhland-api-main-assignment-react-carot204.vercel.app/api/products",
+    baseURL: "https://project-hungthinhland-api-main-assignment-react-carot204.vercel.app/api/",
 
 })
 
