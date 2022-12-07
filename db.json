@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "email": "",
+      "password": "",
+      "username": "",
+      "id": 0
+    }
+  ],
+  "categories": [
+    {
+      "name": "Smart Phone xiaomi",
+      "id": 1
+    },
+    {
+      "name": "Category B",
+      "id": 2
+    },
+    {
+      "name": "Category C",
+      "id": 3
+    },
+    {
+      "name": "Category D",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Xiaomi",
+      "imgUrl": "http://res.cloudinary.com/dywccbjry/image/upload/v1670378628/t9drp4046eq5bodqtqbk.jpg",
+      "price": 13000000,
+      "category": "Smart Phone xiaomi",
+      "desc": "Điện thoại xiaomi",
+      "id": 3
+    },
+    {
+      "name": "Xiamo redmi note 11 pro",
+      "imgUrl": "http://res.cloudinary.com/dywccbjry/image/upload/v1670378674/l8fflayw4b5ht4yikwh5.jpg",
+      "price": 15000000,
+      "category": "Smart Phone xiaomi",
+      "desc": "Điện thoại xiaomi",
+      "id": 4
+    }
+  ]
+}
