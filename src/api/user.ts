@@ -1,6 +1,10 @@
+import axios from 'axios'
 import { IUser } from '../interfaces/user'
-import instance from './config'
 
+const instance = axios.create({
+    baseURL: "https://project-hungthinhland-api-main-assignment-react-carot204.vercel.app/api/users",
+
+})
 export const register = (user: IUser) => {
     return instance.post('/signup', user)
 }
